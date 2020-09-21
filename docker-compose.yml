@@ -1,0 +1,15 @@
+version: '3'
+services:
+  web:
+    image: forest-shuttle-server
+    build: .
+    restart: unless-stopped
+    network_mode: host
+    user: root
+    privileged: true
+    environment:
+      - PORT=3000
+      - CFLAGS="-march=armv7-a"
+      - CXXFLAGS="-march=armv7-a"
+    devices:
+      - "/dev/ttyUSB0:/dev/ttyUSB0"

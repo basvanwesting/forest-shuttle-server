@@ -1,0 +1,23 @@
+{
+  "name": "forest-shuttle-server",
+  "version": "1.0.0",
+  "description": "Forest Shuttle HTTP Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "forest",
+    "shuttle",
+    "http",
+    "server"
+  ],
+  "author": "Bas van Westing",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-persist": "^2.1.0",
+    "rfxcom": "^2.0.2"
+  }
+}
