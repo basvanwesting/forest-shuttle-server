@@ -1,0 +1,14 @@
+[
+  {
+    "accessory": "HttpWindowBlinds",
+    "name": "Gordijnen Woonkamer",
+    "urlSetTargetPosition": "http://192.168.0.xxx:3000/target_position?deviceId=0X000000%2F1&open=%VALUE%",
+    "urlGetCurrentPosition": "http://192.168.0.xxx:3000/current_position?deviceId=0X000000%2F1"
+  },
+  {
+    "accessory": "HttpWindowBlinds",
+    "name": "Gordijnen Slaapkamer",
+    "urlSetTargetPosition": "http://192.168.0.xxx:3000/target_position?deviceId=0X000000%2F1&open=%VALUE%",
+    "urlGetCurrentPosition": "http://192.168.0.xxx:3000/current_position?deviceId=0X000000%2F1"
+  }
+]
